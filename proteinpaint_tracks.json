@@ -3,25 +3,16 @@
   "tracks": [
     {
       "type": "bedj",
-      "name": "Target Regions (fail/partial)",
-      "file": "fail_partial_submitted.bedj.gz",
+      "name": "Target Regions (submitted)",
+      "file": "submitted.bedj.gz",
       "stackheight": 14,
       "stackspace": 1,
-      "categories": {
-        "fail": {
-          "color": "#D62728",
-          "label": "Design Failed (0% coverage)"
-        },
-        "partial_cover": {
-          "color": "#FF7F0E",
-          "label": "Partial Coverage"
-        }
-      }
+      "color": "#1976D2"
     },
     {
       "type": "bedj",
       "name": "Amplicon Insert Regions",
-      "file": "fail_partial_insert.bedj.gz",
+      "file": "insert.bedj.gz",
       "stackheight": 14,
       "stackspace": 1,
       "color": "#2CA02C"
@@ -29,19 +20,10 @@
     {
       "type": "bedj",
       "name": "Missed/Uncovered Regions",
-      "file": "fail_partial_missed.bedj.gz",
+      "file": "missed.bedj.gz",
       "stackheight": 14,
       "stackspace": 1,
-      "categories": {
-        "fail": {
-          "color": "#D62728",
-          "label": "Missed (Design Failed)"
-        },
-        "partial_cover": {
-          "color": "#9467BD",
-          "label": "Missed (Partial Coverage)"
-        }
-      }
+      "color": "#D62728"
     }
   ]
 }
